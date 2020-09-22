@@ -52,6 +52,8 @@ DBW-->
 <p align="justify">
 The talk will discuss the challenging problem of designing Deep Neural Network systems that achieve high performance under low power envelopes, enabling their deployment in the embedded space. We will specifically focus on the opportunities that are provided when customisation of the design is possible, through the use of reconfigurable computing, with emphasis on recent efforts in automating the design of such systems.
 </p>
+</p>
+
 <p>
 <b>Taking Efficient Deep Learning to the Extreme with Binarized Neural Networks</b>
 <img  valign="top" align="right" height=150 src='images/koen_helwegen.jpg' style="float: right; padding-left: 10px; padding-bottom: 2px;"></img><BR>
@@ -69,15 +71,28 @@ However, several fundamental and practical obstacles have limited the use of BNN
 <p align="justify">
 In this talk, we discuss the integrated approach that is needed to tackle these issues. We explore research by Plumerai and others that is pushing the capacity to design and train BNNs, including the binary optimizer Bop and recent progress in the application of knowledge distillation to BNNs. We present the Larq Ecosystem, a family of open-source libraries we developed to facilitate development and deployment of BNNs. We have arrived at an exciting time where It is possible to grab a pretrained, state-of-the-art BNN, finetune it for the task at hand and deploy it for inference on several popular hardware platforms, including Armv8-a.
 </p>
+</p>
 
 <p>
-<b>TBA</b>
+<b>Secure Aggregation for Federated Learning and Analytics</b>
 <img  valign="top" align="right" height=150 src='images/adria_gascon.jpg' style="float: right; padding-left: 10px; padding-bottom: 2px;"></img><BR>
 <a name="gascon" href='https://www.lsi.upc.edu/~agascon/'>Adri&agrave Gasc&oacuten</a><BR>Google
 
 <BR><BR>
-<h4 name="gascon">TBA</h4>
+<p align="justify">
+In this talk I will present recent results secure multi-party computation protocols for aggregation of large vectors, and their role in Federated Learning (FL) and analytics (FA). I'll introduce the first constructions for secure aggregation in the FL setting that achieve polylogarithmic communication and computation per client. Our constructions provide security in the semi-honest and the malicious setting where the adversary controls the server and a 𝛾-fraction of the clients, and correctness with up to 𝛿-fraction dropouts among the clients. 
 </p>
+
+<p align="justify">
+Beyond improving the known asymptotics for secure aggregation, our constructions achieve efficient concrete parameters. For instance, the semi-honest secure aggregation can handle a billion clients at the per client cost of the protocol of Bonawitz et al. (CCS2017) for a thousand clients. In the malicious setting with 104 clients, each client needs to communicate only with 3% of the clients to have a guarantee that its input has been added together with the inputs of at least 5000 other clients, while withstanding up to 5% corrupt clients and 5% dropouts.
+</p>
+
+<p align="justify">
+I will also discuss an application of secure aggregation to the task of secure shuffling which enables a cryptographically secure instantiation of the shuffle model of differential privacy, and conclude discussing open problems in this space.
+</p>
+
+</p>
+
 <BR>
 
 	</div>
