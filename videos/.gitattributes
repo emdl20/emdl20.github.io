@@ -1,1 +1,2 @@
 *.mov filter=lfs diff=lfs merge=lfs -text
+2020_emdl_amplitude_suppression_and_direct_activation_in_networks_for_1bit_frcnn.mp4 filter=lfs diff=lfs merge=lfs -text
